@@ -5,9 +5,10 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults({ noCors: true });
 const port = process.env.PORT || 3000;
 
+server.db = router.db
+
 server.use(auth)
 server.use(middlewares);
-
 server.use(router);
 
 server.listen(port);
