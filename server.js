@@ -5,7 +5,7 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
-app.use(auth)
+server.use(auth)
 server.use(middlewares);
 server.use(router);
 
