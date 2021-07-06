@@ -1,17 +1,18 @@
 {
   "name": "json-server-deploy",
   "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
+  "description": "Json Server backend for my movie api",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [
-    "json-server,heroku, node, REST API"
+    "rest api"
   ],
-  "author": "Jesper Orb",
+  "author": "Anoop Simon",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.2"
+    "json-server": "^0.16.2",
+    "json-server-auth": "^2.0.2"
   }
 }
