@@ -62,6 +62,18 @@
        "image":"movie_scoobi.jpg",
        "description":"Scoob! is a 2020 American computer-animated mystery comedy film based on Hanna-Barbera's Scooby-Doo franchise, produced by the Warner Animation"
      },
+    {
+       "name": "Batman",
+       "genre":"Action,Crime,Drama",
+       "image":"movie_batman.jpg",
+       "description":"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+     },
+     {
+       "name": "The Shawshank Redemption",
+       "genre":"Crime",
+       "image":"img_sr.jpg",
+       "description":"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+     },    
      
     {
       "name": "Wonder woman 1984",
